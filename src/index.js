@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import StandardImageList from "./StandardImageList"
+import Muio from './Muio'
+import Api from "./Api"
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <StandardImageList/>
+    {/* <Muio/> */}
+    {/* <Api/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
